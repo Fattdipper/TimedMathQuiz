@@ -1,0 +1,15 @@
+C:\Users\Mason\Desktop\code\cs\TimedMathQuiz\bin\Debug\TimedMathQuiz.exe.config
+C:\Users\Mason\Desktop\code\cs\TimedMathQuiz\bin\Debug\TimedMathQuiz.exe
+C:\Users\Mason\Desktop\code\cs\TimedMathQuiz\bin\Debug\TimedMathQuiz.pdb
+C:\Users\Mason\Desktop\code\cs\TimedMathQuiz\obj\Debug\TimedMathQuiz.csproj.AssemblyReference.cache
+C:\Users\Mason\Desktop\code\cs\TimedMathQuiz\obj\Debug\TimedMathQuiz.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mason\Desktop\code\cs\TimedMathQuiz\obj\Debug\TimedMathQuiz.Form1.resources
+C:\Users\Mason\Desktop\code\cs\TimedMathQuiz\obj\Debug\TimedMathQuiz.Properties.Resources.resources
+C:\Users\Mason\Desktop\code\cs\TimedMathQuiz\obj\Debug\TimedMathQuiz.csproj.GenerateResource.cache
+C:\Users\Mason\Desktop\code\cs\TimedMathQuiz\obj\Debug\TimedMathQuiz.csproj.CoreCompileInputs.cache
+C:\Users\Mason\Desktop\code\cs\TimedMathQuiz\obj\Debug\TimedMathQuiz.exe
+C:\Users\Mason\Desktop\code\cs\TimedMathQuiz\obj\Debug\TimedMathQuiz.pdb
+C:\Users\Mason\Desktop\code\cs\TimedMathQuiz\bin\Debug\TimedMathQuiz.exe.manifest
+C:\Users\Mason\Desktop\code\cs\TimedMathQuiz\bin\Debug\TimedMathQuiz.application
+C:\Users\Mason\Desktop\code\cs\TimedMathQuiz\obj\Debug\TimedMathQuiz.exe.manifest
+C:\Users\Mason\Desktop\code\cs\TimedMathQuiz\obj\Debug\TimedMathQuiz.application

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TimedMathQuiz.exe" version="1.0.0.0" publicKeyToken="09f2d2ea6cd1e140" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TimedMathQuiz" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TimedMathQuiz.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TimedMathQuiz.exe" size="14280">
+      <assemblyIdentity name="TimedMathQuiz" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wh36c7wI4s0RAhNOEDw5S6GI9zD/zM9o/FVnt1x1Bi0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="TimedMathQuiz.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MASONS-ALEX\Mason" issuerKeyHash="0c6a8f76fb74b365bae9e7a12f95817752237a02" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8CXQjKmn6l653E7wkXIJ7QactCjf8Y6+9TQIDcZZdA8=</DigestValue></Reference></SignedInfo><SignatureValue>EiwxHquFPJGli0qP39pGmupckeTXSgTlAet08XsSup/KY60/NZ3eZm/zi5eNCsp8v9Y9CrWa9r1m95n1rHZtW3rLdeF/ebwcaF3E2qM/8Vjs0xDBjCT8Aspko1Zeb799arwyoFCHvEDMPmdp1XCbdGxZV0nDAhB+BIc1+r6W708=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4KaWH61CFSw6Ca71W9cSBwGJ6ccnCMo2VtF+c3StU4abo3lOSaale39Evc9eXPORtGwPszj8AqdQd5Jxx57CVtbOx4/+L6HAFZ+Vi8ppfx3X1TkJL9bXdW4JZ1W/exjVlqx12RpbAE7Ra+8dtxfgjqW/mO19c7UAnhe/zrMxc3E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0f7459c60d0834f5be8ef1df28b49c06ed097291f04edcb95eeaa7a98cd025f0" Description="" Url=""><as:assemblyIdentity name="TimedMathQuiz.exe" version="1.0.0.0" publicKeyToken="09f2d2ea6cd1e140" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MASONS-ALEX\Mason</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>HnDCyy/ZfEWX6LXENxI8FXoPJWSfSFCBJIutYRIJgMo=</DigestValue></Reference></SignedInfo><SignatureValue>whd9C8ndW4YFbSoh+lOXiyvHtUViTFiKMtk8Z1wbjf49DByF7En/p8DZ1K0iDa2rxhykHCj2zs1UVhcZB7GSlLl0KNkJt1Ydd8rYPqbwALlTHsiGkpSQ59L+mRavfbRbk24r923U0rpcvYsTqWsnuOHu0GC4BlHchYGABqyyfFo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4KaWH61CFSw6Ca71W9cSBwGJ6ccnCMo2VtF+c3StU4abo3lOSaale39Evc9eXPORtGwPszj8AqdQd5Jxx57CVtbOx4/+L6HAFZ+Vi8ppfx3X1TkJL9bXdW4JZ1W/exjVlqx12RpbAE7Ra+8dtxfgjqW/mO19c7UAnhe/zrMxc3E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQG9XIJqjhF6dHsQ7khGo/RzANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIATQBBAFMATwBOAFMALQBBAEwARQBYAFwATQBhAHMAbwBuMB4XDTIyMDEwOTAzMTMyMFoXDTIzMDEwOTA5MTMyMFowLTErMCkGA1UEAx4iAE0AQQBTAE8ATgBTAC0AQQBMAEUAWABcAE0AYQBzAG8AbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA4KaWH61CFSw6Ca71W9cSBwGJ6ccnCMo2VtF+c3StU4abo3lOSaale39Evc9eXPORtGwPszj8AqdQd5Jxx57CVtbOx4/+L6HAFZ+Vi8ppfx3X1TkJL9bXdW4JZ1W/exjVlqx12RpbAE7Ra+8dtxfgjqW/mO19c7UAnhe/zrMxc3ECAwEAATANBgkqhkiG9w0BAQsFAAOBgQDJYWXhcfUIy3J6T9fcf2KMr5sEQKtIEh9aQ98sZ9paINWq5X/HMm+BJaxGVjo/oBkIM+HP6nKSXehmbwW2U5pAwNHZGK5jE/ZQdQnOgF2wcpms8lwIkD4HHHi3/kdyPbD71JasEGezbBlC/nf75hNBLlMfhQDVjk4G/VRTv87mSQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
